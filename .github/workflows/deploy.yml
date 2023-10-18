@@ -14,7 +14,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: Automattic/FTP-Deploy-Action@3.0.1
       with:
-        ftp-server: sftp://sftp.wp.com/htdocs/wp-content/themes
+        ftp-server: sftp://sftp.wp.com/htdocs/
         ftp-username: ${{ secrets.FTP_USER }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         known-hosts: "sftp.wp.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQAB\
