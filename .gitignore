@@ -30,6 +30,7 @@
 /wp-content/plugins/*
 /wp-content/mu-plugins/*
 !wp-content/themes/ollie
+!wp-content/plugins/qm-tutorial
 
 # Log files
 *.log
